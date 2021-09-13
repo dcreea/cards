@@ -8,7 +8,7 @@ import { AppEnvironment } from "./shared/models/app.environment";
   styleUrls: ["./app.component.css", "./shared/styles/style.css"],
 })
 export class AppComponent {
-  title = "DCREAE-Front";
+  title = "DCREEA-Front";
   showGlobalLoading = false;
   confirmationModal: {
     opened?: boolean;
