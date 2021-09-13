@@ -1,0 +1,30 @@
+<div class="clr-col-12" #printable id="printable">
+  <div class="content-area">
+    <!-- <app-drag [game]="game" (save)="savePositions($event)"></app-drag> -->
+    <div class="clr-row" style="padding: 7rem 0px; background-color: #52a798">
+      <div class="clr-col-2"></div>
+      <div class="clr-col-6">
+        <div>
+          <h1 style="font-weight: 800; color: white">D-CreEA - A Tool to Aid The Process of Creating an Educational Card Game</h1>
+        </div>
+        <div>
+          <p style="color: white">This tool was developed in a master's thesis in partnership with the Federal University of Ceará</p>
+        </div>
+        <div>
+          <p style="color: white">Author: Rubens Silva</p>
+        </div>
+        <div style="margin-top: 2rem">
+          <button class="btn btn-primary float-items-right" (click)="createNew()">Get Start Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<clr-modal [(clrModalOpen)]="visibleLogin">
+  <h3 class="modal-title">Login</h3>
+  <div class="modal-body" style="border-top: 1px solid #dedede; border-bottom: 1px solid #dedede">
+    <app-login></app-login>
+  </div>
+  <div class="modal-footer"></div>
+</clr-modal>
